@@ -1,0 +1,205 @@
+* {
+    font-family: sans-serif;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    display: grid;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    display: grid;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+h3{
+    display: grid;
+    text-align: center;
+}
+
+.mega-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cells-container {
+    display: grid;
+    grid-template-columns: repeat(16, 2rem);
+    grid-template-rows: repeat(16, 2rem);
+    background-color: white;
+    outline: 4px solid green;
+    justify-content: center;
+    width: 512px;
+}
+
+.cells {
+    transition: 100ms all ease;
+}
+
+.hover-default {
+    background-color: magenta;
+    
+}
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+    background-color: magenta;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.reset-button:hover {
+    background-color: rgb(161, 28, 139);
+}
+
+.reset-button:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+h4 {
+    display: grid;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.color-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 2rem;
+}
+
+.color-button-red {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.color-button-red:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.hover-red {
+    background-color: red;
+}
+
+.color-button-blue {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.color-button-blue:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.hover-blue {
+    background-color: blue;
+}
+
+.color-button-green {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.color-button-green:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.hover-green {
+    background-color: green;
+}
+
+.color-button-yellow {
+    display: flex;
+    justify-content: center;
+    background-color: #caca1c;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.color-button-yellow:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.hover-yellow {
+    background-color: #caca1c;
+}
+
+.color-button-orange {
+    display: flex;
+    justify-content: center;
+    background-color: darkorange;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 2rem;
+}
+
+.color-button-orange:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.hover-orange {
+    background-color: darkorange;
+}
